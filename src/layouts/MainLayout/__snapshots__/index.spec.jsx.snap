@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/MainLayout/TopBar should render correctly 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <TopBar />
+  <div
+    className="makeStyles-wrapper-2"
+  >
+    <div
+      className="makeStyles-contentContainer-3"
+    >
+      <div
+        className="makeStyles-content-4"
+      >
+        <Outlet />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Logo should render correctly 1`] = `
+<Store>
+  <div
+    className="makeStyles-root-1"
+  >
+    <TopBar
+      onMobileNavOpen={[Function]}
+    />
+    <NavBar
+      onMobileClose={[Function]}
+      openMobile={false}
+    />
+    <div
+      className="makeStyles-wrapper-2"
+    >
+      <div
+        className="makeStyles-contentContainer-3"
+      >
+        <div
+          className="makeStyles-content-4"
+        >
+          <Outlet />
+        </div>
+      </div>
+    </div>
+  </div>
+</Store>
+`;
+
+exports[`src/components/Logo should render correctly on mobile close 1`] = `
+<Store>
+  <div
+    className="makeStyles-root-1"
+  >
+    <TopBar
+      onMobileNavOpen={[Function]}
+    />
+    <NavBar
+      onMobileClose={[Function]}
+      openMobile={false}
+    />
+    <div
+      className="makeStyles-wrapper-2"
+    >
+      <div
+        className="makeStyles-contentContainer-3"
+      >
+        <div
+          className="makeStyles-content-4"
+        >
+          <Outlet />
+        </div>
+      </div>
+    </div>
+  </div>
+</Store>
+`;
+
+exports[`src/components/Logo should render correctly on mobile nav open 1`] = `
+<Store>
+  <div
+    className="makeStyles-root-1"
+  >
+    <TopBar
+      onMobileNavOpen={[Function]}
+    />
+    <NavBar
+      onMobileClose={[Function]}
+      openMobile={true}
+    />
+    <div
+      className="makeStyles-wrapper-2"
+    >
+      <div
+        className="makeStyles-contentContainer-3"
+      >
+        <div
+          className="makeStyles-content-4"
+        >
+          <Outlet />
+        </div>
+      </div>
+    </div>
+  </div>
+</Store>
+`;

@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/DashboardLayout/NavBar/NavItem should render correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    className="makeStyles-item-1"
+    disableGutters={true}
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Button))
+      activeClassName="makeStyles-active-6"
+      className="makeStyles-button-3"
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "NavLink",
+          "propTypes": Object {
+            "activeClassName": [Function],
+            "activeStyle": [Function],
+            "aria-current": [Function],
+            "className": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "state": [Function],
+            "style": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      to="/app/real-estate-funds"
+    >
+      <Memo(ForwardRef(ApartmentIcon))
+        className="makeStyles-icon-4"
+        size="20"
+      />
+      <span
+        className="makeStyles-title-5"
+      >
+        Fundos imobiliários
+      </span>
+    </WithStyles(ForwardRef(Button))>
+    <Memo(ForwardRef(ExpandMoreIcon)) />
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Collapse))
+    in={false}
+    timeout="auto"
+    unmountOnExit={true}
+  >
+    <WithStyles(ForwardRef(List))
+      component="div"
+      disablePadding={true}
+    >
+      <WithStyles(ForwardRef(ListItem))
+        className="makeStyles-nested-2"
+        disableGutters={true}
+      >
+        <WithStyles(ForwardRef(Button))
+          activeClassName="makeStyles-active-6"
+          className="makeStyles-button-3"
+          component={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "NavLink",
+              "propTypes": Object {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "state": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          to="/app/real-estate-funds/ranking"
+        >
+          <Memo(ForwardRef(ListOutlinedIcon))
+            className="makeStyles-icon-4"
+            size="20"
+          />
+          <span
+            className="makeStyles-title-5"
+          >
+            Ranking
+          </span>
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(ListItem))>
+    </WithStyles(ForwardRef(List))>
+  </WithStyles(ForwardRef(Collapse))>
+</Fragment>
+`;
+
+exports[`src/layouts/DashboardLayout/NavBar/NavItem should render correctly with open property 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    className="makeStyles-item-1"
+    disableGutters={true}
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Button))
+      activeClassName="makeStyles-active-6"
+      className="makeStyles-button-3"
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "NavLink",
+          "propTypes": Object {
+            "activeClassName": [Function],
+            "activeStyle": [Function],
+            "aria-current": [Function],
+            "className": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "state": [Function],
+            "style": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        }
+      }
+      to="/app/real-estate-funds"
+    >
+      <Memo(ForwardRef(ApartmentIcon))
+        className="makeStyles-icon-4"
+        size="20"
+      />
+      <span
+        className="makeStyles-title-5"
+      >
+        Fundos imobiliários
+      </span>
+    </WithStyles(ForwardRef(Button))>
+    <Memo(ForwardRef(ExpandLessIcon)) />
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Collapse))
+    in={true}
+    timeout="auto"
+    unmountOnExit={true}
+  >
+    <WithStyles(ForwardRef(List))
+      component="div"
+      disablePadding={true}
+    >
+      <WithStyles(ForwardRef(ListItem))
+        className="makeStyles-nested-2"
+        disableGutters={true}
+      >
+        <WithStyles(ForwardRef(Button))
+          activeClassName="makeStyles-active-6"
+          className="makeStyles-button-3"
+          component={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "NavLink",
+              "propTypes": Object {
+                "activeClassName": [Function],
+                "activeStyle": [Function],
+                "aria-current": [Function],
+                "className": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "state": [Function],
+                "style": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          to="/app/real-estate-funds/ranking"
+        >
+          <Memo(ForwardRef(ListOutlinedIcon))
+            className="makeStyles-icon-4"
+            size="20"
+          />
+          <span
+            className="makeStyles-title-5"
+          >
+            Ranking
+          </span>
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(ListItem))>
+    </WithStyles(ForwardRef(List))>
+  </WithStyles(ForwardRef(Collapse))>
+</Fragment>
+`;

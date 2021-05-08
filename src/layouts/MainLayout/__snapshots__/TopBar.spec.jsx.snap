@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/MainLayout/TopBar should render correctly 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  className="makeStyles-root-1"
+  elevation={0}
+>
+  <WithStyles(ForwardRef(Toolbar))
+    className="makeStyles-toolbar-2"
+  >
+    <Link
+      to="/"
+    >
+      <Logo />
+    </Link>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;

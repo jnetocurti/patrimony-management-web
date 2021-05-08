@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/containers/errors/NotFoundView should render correctly 1`] = `
+<ForwardRef
+  className="makeStyles-root-1"
+  title="404"
+>
+  <Styled(MuiBox)
+    display="flex"
+    flexDirection="column"
+    height="100%"
+    justifyContent="center"
+  >
+    <WithStyles(ForwardRef(Container))
+      maxWidth="md"
+    >
+      <WithStyles(ForwardRef(Typography))
+        align="center"
+        color="textPrimary"
+        variant="h1"
+      >
+        404: A página que você está procurando não existe
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        align="center"
+        color="textPrimary"
+        variant="subtitle2"
+      >
+        Ou você tentou um caminho duvidoso ou veio aqui por engano. Seja o que for, tente usar a navegação
+      </WithStyles(ForwardRef(Typography))>
+      <Styled(MuiBox)
+        textAlign="center"
+      >
+        <img
+          alt="Under development"
+          className="makeStyles-image-2"
+          src="/static/images/undraw_page_not_found_su7k.svg"
+        />
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Container))>
+  </Styled(MuiBox)>
+</ForwardRef>
+`;

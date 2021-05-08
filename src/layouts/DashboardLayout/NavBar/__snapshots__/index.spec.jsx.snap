@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/layouts/DashboardLayout/NavBar should render correctly openMobile false 1`] = `
+<BrowserRouter>
+  <Router
+    action="POP"
+    location={
+      Object {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      }
+    }
+    navigator={
+      Object {
+        "action": "POP",
+        "back": [Function],
+        "block": [Function],
+        "createHref": [Function],
+        "forward": [Function],
+        "go": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "default",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <NavBar
+      onMobileClose={
+        [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": false,
+            },
+          ],
+        }
+      }
+      openMobile={true}
+    >
+      <Hidden
+        lgUp={true}
+      >
+        <WithWidth(HiddenJs)
+          lgDown={false}
+          lgUp={true}
+          mdDown={false}
+          mdUp={false}
+          smDown={false}
+          smUp={false}
+          xlDown={false}
+          xlUp={false}
+          xsDown={false}
+          xsUp={false}
+        />
+      </Hidden>
+      <Hidden
+        mdDown={true}
+      >
+        <WithWidth(HiddenJs)
+          lgDown={false}
+          lgUp={false}
+          mdDown={true}
+          mdUp={false}
+          smDown={false}
+          smUp={false}
+          xlDown={false}
+          xlUp={false}
+          xsDown={false}
+          xsUp={false}
+        />
+      </Hidden>
+    </NavBar>
+  </Router>
+</BrowserRouter>
+`;
+
+exports[`src/layouts/DashboardLayout/NavBar should render correctly openMobile true 1`] = `
+<BrowserRouter>
+  <Router
+    action="POP"
+    location={
+      Object {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      }
+    }
+    navigator={
+      Object {
+        "action": "POP",
+        "back": [Function],
+        "block": [Function],
+        "createHref": [Function],
+        "forward": [Function],
+        "go": [Function],
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "default",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <NavBar
+      onMobileClose={[MockFunction]}
+      openMobile={false}
+    >
+      <Hidden
+        lgUp={true}
+      >
+        <WithWidth(HiddenJs)
+          lgDown={false}
+          lgUp={true}
+          mdDown={false}
+          mdUp={false}
+          smDown={false}
+          smUp={false}
+          xlDown={false}
+          xlUp={false}
+          xsDown={false}
+          xsUp={false}
+        />
+      </Hidden>
+      <Hidden
+        mdDown={true}
+      >
+        <WithWidth(HiddenJs)
+          lgDown={false}
+          lgUp={false}
+          mdDown={true}
+          mdUp={false}
+          smDown={false}
+          smUp={false}
+          xlDown={false}
+          xlUp={false}
+          xsDown={false}
+          xsUp={false}
+        />
+      </Hidden>
+    </NavBar>
+  </Router>
+</BrowserRouter>
+`;

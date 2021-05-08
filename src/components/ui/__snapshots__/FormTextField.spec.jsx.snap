@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/ui/TextFields should render correctly 1`] = `
+<WithStyles(ForwardRef(TextField))
+  fullWidth={true}
+  required={true}
+  size="small"
+  variant="outlined"
+/>
+`;

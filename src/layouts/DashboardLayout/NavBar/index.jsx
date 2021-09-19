@@ -26,6 +26,11 @@ const items = [
         icon: ListOutlined,
         title: 'Ranking',
         href: '/app/real-estate-funds/ranking'
+      },
+      {
+        icon: ListOutlined,
+        title: 'Transações',
+        href: '/app/real-estate-funds/transactions'
       }
     ]
   }

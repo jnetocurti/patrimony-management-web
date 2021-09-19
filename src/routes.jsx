@@ -5,7 +5,9 @@ import DashboardLayout from 'src/layouts/DashboardLayout';
 import MainLayout from 'src/layouts/MainLayout';
 
 import NotFoundView from './containers/errors/NotFoundView';
-import RealEstateFunds from './containers/realEstateFunds';
+import RealEstateFunds from './containers/realEstateFunds/ranking';
+import Transactions from './containers/realEstateFunds/transactions';
+import Register from './containers/realEstateFunds/transactions/Register';
 
 const routes = [
   {
@@ -13,6 +15,8 @@ const routes = [
     element: <DashboardLayout />,
     children: [
       { path: 'real-estate-funds/ranking', element: <RealEstateFunds /> },
+      { path: 'real-estate-funds/transactions', element: <Transactions /> },
+      { path: 'real-estate-funds/transactions/register', element: <Register /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   },

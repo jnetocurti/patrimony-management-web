@@ -6,6 +6,9 @@ import rootReducer, { rootInitialState } from './reducers/index';
 import realEstateFundsReducer, {
   realEstateFundsInitialState
 } from './reducers/realEstateFunds';
+import realEstateFundsTransactionsReducer, {
+  realEstateFundsTransactionsInitialState
+} from './reducers/realEstateFundsTransactions';
 
 export const StoreContext = createContext();
 
@@ -17,8 +20,20 @@ const Store = ({ children }) => {
     realEstateFundsInitialState
   );
 
+  const [
+    realEstateFundsTransactionsStore,
+    realEstateFundsTransactionsDispatch
+  ] = useReducer(
+    realEstateFundsTransactionsReducer,
+    realEstateFundsTransactionsInitialState
+  );
+
   const triggerDispatchs = (action) => {
-    const dispatchs = [rootDispatch, realEstateFundsDispatch];
+    const dispatchs = [
+      rootDispatch,
+      realEstateFundsDispatch,
+      realEstateFundsTransactionsDispatch
+    ];
     for (let i = 0; i < dispatchs.length; i++) {
       dispatchs[i](action);
     }
@@ -27,7 +42,8 @@ const Store = ({ children }) => {
   const combinedReducers = {
     store: {
       rootStore,
-      realEstateFundsStore
+      realEstateFundsStore,
+      realEstateFundsTransactionsStore
     },
     dispatch: (action) => triggerDispatchs(action)
   };
